@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".model.view.CreateAccountStepGenre"
+    tools:showIn="@layout/bar_create_account_step_genre"
+    tools:layout_editor_absoluteY="79dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardElectronics"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:onClick="checkCard"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/transparent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp">
+
+        <RelativeLayout
+            android:id="@+id/bgElectronic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_eletronic"
+            app:layout_constraintBottom_toTopOf="@+id/card_view"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@+id/card_view"
+            app:layout_constraintRight_toLeftOf="@+id/card_view"
+            app:layout_constraintTop_toTopOf="@+id/card_view">
+
+            <ImageView
+                android:id="@+id/imgElectronics"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/ic_eletro_not_check"
+                android:layout_marginTop="14dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/txtElectronics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="11dp"
+                android:gravity="center"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="@string/genreElectronics"
+                android:textAlignment="center"
+                android:textColor="@color/halfTransparent"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardRock"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="checkCard"
+        app:cardBackgroundColor="@color/transparent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="8dp">
+
+        <RelativeLayout
+            android:id="@+id/bgRock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_rock"
+            app:layout_constraintBottom_toTopOf="@+id/card_view"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@+id/card_view"
+            app:layout_constraintRight_toLeftOf="@+id/card_view"
+            app:layout_constraintTop_toTopOf="@+id/card_view">
+
+            <ImageView
+                android:id="@+id/imgRock"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/ic_rock_not_check"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp" />
+
+            <TextView
+                android:id="@+id/txtRock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="@string/genreRock"
+                android:textAlignment="center"
+                android:textColor="@color/halfTransparent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:id="@+id/imgCheckRock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardSertanejo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:onClick="checkCard"
+        app:cardBackgroundColor="@color/transparent"
+        app:layout_constraintTop_toBottomOf="@+id/cardElectronics"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp">
+
+        <RelativeLayout
+            android:id="@+id/bgCountry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_country"
+            app:layout_constraintBottom_toTopOf="@+id/card_view"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@+id/card_view"
+            app:layout_constraintRight_toLeftOf="@+id/card_view"
+            app:layout_constraintTop_toTopOf="@+id/card_view">
+
+            <ImageView
+                android:id="@+id/imgSertanejo"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/ic_sertanejo_not_check"
+                android:layout_marginTop="13dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/txtSertanejo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="@string/genreSertanejo"
+                android:textAlignment="center"
+                android:textColor="@color/halfTransparent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="13dp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardPagode"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="checkCard"
+        app:cardBackgroundColor="@color/transparent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardRock"
+        android:layout_marginEnd="8dp">
+
+        <RelativeLayout
+            android:id="@+id/bgPagode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_pagode"
+            app:layout_constraintBottom_toTopOf="@+id/card_view"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@+id/card_view"
+            app:layout_constraintRight_toLeftOf="@+id/card_view"
+            app:layout_constraintTop_toTopOf="@+id/card_view">
+
+            <ImageView
+                android:id="@+id/imgPagode"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/ic_pagode_not_check"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="11dp" />
+
+            <TextView
+                android:id="@+id/txtPagode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="@string/genrePagoda"
+                android:textAlignment="center"
+                android:textColor="@color/halfTransparent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="13dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/btnFinishCreateAccountStepGenre"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="59dp"
+        android:onClick="finalize"
+        android:text="@string/genreFinish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

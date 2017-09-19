@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff4000</color>
+    <color name="colorPrimaryDark">#ff4000</color>
+    <color name="colorAccent">#ea5b2c</color>
+    <color name="white">#ffffff</color>
+    <color name="facebook">#3b5998</color>
+    <color name="google">#4683ec</color>
+    <color name="transparent">#00ff0000</color>
+    <color name="halfTransparent">#a0ffffff</color>
+    <color name="checkGenre">#089400</color>
+</resources>

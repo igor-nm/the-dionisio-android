@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.the.dionisio.apk.client.model.view.DetailedEvent"
+    tools:showIn="@layout/bar_event">
+
+    <ImageView
+        android:id="@+id/imageBannerEvent"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_report_image"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/btnBuyTicket"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:onClick="goShoppingCart"
+        android:text="@string/buyTicket"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/btnLocaleEvent" />
+
+    <Button
+        android:id="@+id/btnLocaleEvent"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="goLocation"
+        android:text="@string/localeEvent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/txtNameEvent"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:text="Party of Girilino"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageBannerEvent"
+        app:layout_constraintTop_toBottomOf="@+id/imageBannerEvent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/txtDateEndEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DD/MM/YYYY HH:MM"
+        android:textSize="16dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="3dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtNameEvent"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/txtDateStartEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="DD/MM/YYYY HH:MM"
+        android:textSize="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/txtNameEvent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNameEvent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/txtDescriptionEvent"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:text="Description of the party "
+        android:textSize="16dp"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="3dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtDateStartEvent"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:id="@+id/txtSeparat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="—"
+        app:layout_constraintLeft_toRightOf="@+id/txtDateStartEvent"
+        app:layout_constraintRight_toLeftOf="@+id/txtDateEndEvent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNameEvent"
+        app:layout_constraintHorizontal_bias="0.571" />
+
+
+
+</android.support.constraint.ConstraintLayout>

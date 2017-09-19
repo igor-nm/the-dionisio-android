@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "747623154471",
+    "firebase_url": "https://the-dionisio-app.firebaseio.com",
+    "project_id": "the-dionisio-app",
+    "storage_bucket": "the-dionisio-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747623154471:android:066c064ffd19c5d5",
+        "android_client_info": {
+          "package_name": "com.the.dionisio.apk.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747623154471-imcqdqt178dvi8v8l79gusik9rvr03pg.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "747623154471-15rebq8hdgo544ei4i1vebc0q5l3mtt3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.the.dionisio.apk.client",
+            "certificate_hash": "a8a3782224520124918f459b1157ef3097bcaac2"
+          }
+        },
+        {
+          "client_id": "747623154471-ier3fi0glfugvt29dh8nqc67dqfhe32g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGW8PTJg0lyJuJYIUyMadgktCSTaPGDfs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747623154471-imcqdqt178dvi8v8l79gusik9rvr03pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

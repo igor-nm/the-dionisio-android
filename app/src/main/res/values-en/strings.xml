@@ -1,0 +1,67 @@
+<resources>
+    <!-- Strings related to legend (english) -->
+    <string name="btn_createAccount">Create account</string>
+    <string name="btn_login">Login</string>
+    <string name="hnt_password">Password</string>
+    <string name="txv_forgotPassword">Forgot password</string>
+    <string name="hnt_fullName">Full name</string>
+    <string name="hnt_email">Email address</string>
+    <string name="hnt_birth">Birth - Example: dd/MM/yyyy</string>
+    <string name="txt_sex">Sex:</string>
+    <string name="txt_man">Man</string>
+    <string name="txt_woman">Woman</string>
+    <string name="txt_other">Others</string>
+    <string name="btn_next">Next step</string>
+    <string name="txv_descriptionForgotPassword">Enter your email address to send a recovery password.</string>
+    <string name="btn_send">Send</string>
+    <string name="genreRock">Rock</string>
+    <string name="genreElectronics">Electronics</string>
+    <string name="genrePagoda">Pagode</string>
+    <string name="genreSertanejo">Sertanejo</string>
+    <string name="genreFinish">Finish</string>
+    <string name="buyTicket">Buy Ticket</string>
+    <string name="localeEvent">Event Place</string>
+    <string name="action_map">Map</string>
+    <string name="hnt_searchEvent">Search</string>
+    <string name="hnt_sectorEvent">Sector</string>
+    <string name="hnt_filterDateStart">Date begin - Example: dd/MM/yyyy</string>
+    <string name="hnt_filterDateEnd">Date end - Example: dd/MM/yyyy</string>
+    <string name="hnt_filterLocationActivated">Activated</string>
+    <string name="hnt_filterLocationDeactivated">Deactivated</string>
+    <string name="txt_filter">Filter</string>
+
+    <!-- Strings related of error of field -->
+    <string name="field_email">Please insert a email valid</string>
+    <string name="field_required">Valid field required!</string>
+    <string name="field_nameFull">Please insert your name</string>
+    <string name="field_password">Please insert your password</string>
+    <string name="field_birth">Please insert a date birth valid</string>
+    <string name="field_genre">Please choose at least one musical taste</string>
+    <string name="validation_login">Please enter an invalid email and password.</string>
+    <string name="validation_connection">Communication failure with server.</string>
+
+    <!-- Strings for navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="ticket">Ticket</string>
+    <string name="nav_logout">Log out</string>
+    <string name="filter_date">Filter by date</string>
+    <string name="filter_locale">Filter by location</string>
+    <string name="filter_genre">Filter by genre</string>
+    <string name="btn_filter">Filtrate now</string>
+
+    <!-- Strings related of alter password -->
+    <string name="hnt_present_password">Current password</string>
+    <string name="hnt_new_password">New password</string>
+    <string name="hnt_confirm_password">Confirm new Password</string>
+    <string name="btn_confirm">Confirm</string>
+
+    <!-- String related of settings -->
+    <string name="hnt_alter_name">Change name</string>
+
+    <!-- String of load views -->
+    <string name="progress_title">Loading ...</string>
+    <string name="progress_message">Connecting to web service ...</string>
+
+</resources>

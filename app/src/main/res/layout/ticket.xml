@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#FFF"
+    tools:context="com.the.dionisio.apk.client.model.view.Ticket"
+    tools:showIn="@layout/bar_ticket">
+
+    <TextView
+        android:id="@+id/txtNameEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="Girilino Party FX"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/ivCode"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/ivCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtBachEvent"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="Lote: 14"
+        android:textSize="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/txtSectorEvent"
+        app:layout_constraintVertical_bias="0.657"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtSectorEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setor: Vip"
+        android:textSize="30dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtBachEvent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/txtDateEvent" />
+
+    <TextView
+        android:id="@+id/txtDateEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data: 12/06/2016"
+        android:textSize="30dp"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintTop_toBottomOf="@+id/txtSectorEvent" />
+
+
+
+</android.support.constraint.ConstraintLayout>

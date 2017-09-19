@@ -1,0 +1,92 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">The Dionisio</string>
+
+    <!-- Content to use for facebook integration -->
+    <string name="facebook_app_id">1925229844415906</string>
+
+    <!-- Strings related to Login -->
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to legend default(portuguese) -->
+    <string name="btn_createAccount">Criar Conta</string>
+    <string name="btn_login">Entrar</string>
+    <string name="hnt_password">Senha</string>
+    <string name="txv_forgotPassword">Esqueci a senha</string>
+    <string name="btn_loginFacebook">Entre com o Facebook</string>
+    <string name="btn_loginGoogle">Entre com o Google</string>
+    <string name="hnt_fullName">Nome completo</string>
+    <string name="hnt_email">Endereço de email</string>
+    <string name="hnt_birth">Nascimento - Exemplo: dd/MM/yyyy</string>
+    <string name="txt_sex">Sexo:</string>
+    <string name="txt_man">Homem</string>
+    <string name="txt_woman">Mulher</string>
+    <string name="txt_other">Outros</string>
+    <string name="btn_next">Próximo Passo</string>
+    <string name="txv_descriptionForgotPassword">Digite seu endereço de email para enviar uma senha de recuperação.</string>
+    <string name="btn_send">Enviar</string>
+    <string name="genreRock">Rock</string>
+    <string name="genreElectronics">Eletrônica</string>
+    <string name="genrePagoda">Pagode</string>
+    <string name="genreSertanejo">Sertanejo</string>
+    <string name="genreFinish">Finalizar</string>
+    <string name="buyTicket">Comprar Ingresso</string>
+    <string name="localeEvent">Local do Evento</string>
+    <string name="action_map">Mapa</string>
+    <string name="hnt_searchEvent">Pesquisar</string>
+    <string name="hnt_sectorEvent">Setor</string>
+    <string name="hnt_filterDateStart">Data inicial - Exemplo: dd/MM/yyyy</string>
+    <string name="hnt_filterDateEnd">Data final - Exemplo: dd/MM/yyyy</string>
+    <string name="hnt_filterLocationActivated">Ativado</string>
+    <string name="hnt_filterLocationDeactivated">Desativado</string>
+    <string name="txt_filter">Filtro</string>
+
+    <!-- Strings related of error of field -->
+    <string name="field_email">Favor inserir um e-mail válido</string>
+    <string name="field_required">Campo obrigatório!</string>
+    <string name="field_nameFull">Favor inserir o nome</string>
+    <string name="field_password">Favor inserir a senha</string>
+    <string name="field_birth">Favor inserir uma data de nascimento válida</string>
+    <string name="field_genre">Escolha pelo menos um gosto musical</string>
+    <string name="validation_login">Insira um e-mail e uma senha válida.</string>
+    <string name="validation_connection">Falha de comunicação com o servidor.</string>
+
+    <!-- Strings for navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Configurações</string>
+    <string name="ticket">Ingresso</string>
+    <string name="nav_logout">Sair</string>
+    <string name="filter_date">Filtrar por data</string>
+    <string name="filter_locale">Filtrar por local</string>
+    <string name="filter_genre">Filtrar por genero</string>
+    <string name="btn_filter">Filtrar agora</string>
+    <string name="title_activity_ticket">Ticket</string>
+    <string name="title_activity_setting">Setting</string>
+
+    <!-- Strings related of alter password -->
+    <string name="hnt_present_password">Senha Atual</string>
+    <string name="hnt_new_password">Nova senha</string>
+    <string name="hnt_confirm_password">Confirma nova senha</string>
+    <string name="btn_confirm">Confirmar</string>
+
+    <!-- String related of settings -->
+    <string name="hnt_alter_name">Alterar nome</string>
+    <string name="title_activity_alter_password">AlterPassword</string>
+
+    <string name="txt_qtd">Quantidade</string>
+    <string name="txt_opcao">Opção</string>
+    <string name="txt_valueTotal">Valor Total</string>
+    <string name="txt_valueUnit">Valor Unitario</string>
+    <string name="btn_checkout">Checkout</string>
+
+    <!-- String of load views -->
+    <string name="progress_title">Carregando ...</string>
+    <string name="progress_message">Conectando-se ao webservice ...</string>
+
+</resources>
